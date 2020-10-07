@@ -41,6 +41,6 @@ int main(int argc, char **argv)
   stosun = n / P;
 
   pi = stosun * 2 * l / L;
-  cout << n << "\t" << t.elapsed() << "\t" << pi << "\t\t";
+  cout << n << "\t" << t.elapsed() << "\t" << pi << "\t";
   return 0;
 }

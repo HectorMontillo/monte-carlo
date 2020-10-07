@@ -69,5 +69,5 @@ main(int argc, char **argv)
   int nt = t.elapsed();
   err = abs(base_pi - pi);
 
-  cout << ndarts << "\t" << nt << "\t" << pi << "\t\t";
+  cout << ndarts << "\t" << nt << "\t" << pi << "\t";
 }

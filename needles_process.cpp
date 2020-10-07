@@ -90,7 +90,7 @@ int main(int argc, char **argv)
       tavg += (long double)procs[i];
     }
     tavg = (long double)tavg / 4;
-    cout << t.elapsed() << "\t" << tavg << "\t\t";
+    cout << t.elapsed() << "\t" << tavg << "\t";
   }
   return 0;
 }

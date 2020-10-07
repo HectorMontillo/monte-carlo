@@ -125,7 +125,7 @@ long double call_proc(int niter, int ndarts)
     tavg = (long double)tavg / 4;
     //cout << t.elapsed() << "\n";
 
-    cout << t.elapsed() << "\t" << tavg << "\t\t";
+    cout << t.elapsed() << "\t" << tavg << "\t";
     return tavg;
     //print_matriz(matrix, a.size(), b.size());
     //cout << "Finalizado correctamente" << endl;
